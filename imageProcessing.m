@@ -2,7 +2,7 @@
 % Program: Edge Detection, Thining and Gradients' Calculations
 
 function a = imageProcessing(fileName, thresholdSobelGradMag, thresholdSobelGradDir, thresholdRobertsGradMag, thresholdRobertsGradDir)
-%%%Default Parameters for flower.jpg
+%%%Default Parameters for rose.jpg
 % fileName = 'rose.jpg';
 % thresholdSobelGradMag = '80';
 % thresholdSobelGradDir = '1.5';
