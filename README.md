@@ -15,15 +15,15 @@ The individual thresholds, mentioned above, are user-driven manual intensity-val
 
 The recommended set of threshold values for the given set of sample images are given below:
 - Script Parameters for rose.jpg
-  - thresholdSobelGradMag = '80'
-  - thresholdSobelGradDir = '1.5'
-  - thresholdRobertsGradMag = '15'
-  - thresholdRobertsGradDir = '1.5'
+  - thresholdSobelGradMag = 80
+  - thresholdSobelGradDir = 1.5
+  - thresholdRobertsGradMag = 15
+  - thresholdRobertsGradDir = 1.5
 - Script Parameters for flower.jpg
-  - thresholdSobelGradMag = '150'
-  - thresholdSobelGradDir = '1.5'
-  - thresholdRobertsGradMag = '33'
-  - thresholdRobertsGradDir = '1.5'
+  - thresholdSobelGradMag = 150
+  - thresholdSobelGradDir = 1.5
+  - thresholdRobertsGradMag = 33
+  - thresholdRobertsGradDir = 1.5
 
 ## Observations
 It was noticed that Sobel edge-detection was slightly slower than Roberts, although the smoother edges obtained by Sobel indicated that Roberts was more sensitive to noise. Moreover, thresholding and thinning gradient magnitudes produced meaningful object-outline results, unlike in the case of gradient directions which produced uninterpretable visual results.
